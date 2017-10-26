@@ -1,0 +1,8 @@
+pipeline:
+  docker:
+    image: plugins/docker
+    repo: aliakseimaniuk/docker-ubuntu-utils
+    tags: latest
+    secrets: [ docker_username, docker_password, docker_email ]
+    when:
+      branch: ["master"]
