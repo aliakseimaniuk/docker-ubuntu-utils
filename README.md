@@ -7,6 +7,8 @@
 1. unzip 
 1. bzip2 
 1. jq
+1. pbzip2
+1. dosfstools
 
 ## Development
 Use [build.sh](./build.sh) script to build docker container locally.
